@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from bs4 import BeautifulSoup, SoupStrainer
+from bs4 import BeautifulSoup
 from lxml import html
 import time
 import re
@@ -56,7 +56,7 @@ class Parsing_Content(object):
 
     def parse_coursera_categories(self, html_soup):
         """
-        This method uses the soup to scrap through coursera categories 
+        This method uses the soup to scrape through coursera categories 
         """
         count = 0
         print("Fetching categories")
