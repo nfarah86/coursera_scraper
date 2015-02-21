@@ -95,6 +95,7 @@ class Parsing_Content(object):
         coursera_categories_dictionary['start-date'] = coursera_date_list
         coursera_categories_dictionary['duration'] = coursera_duration_list
         
+        print(coursera_categories_dictionary)
         return(coursera_categories_dictionary)
 
 def parse_multiple_instructors(coursera_instructor_list):
