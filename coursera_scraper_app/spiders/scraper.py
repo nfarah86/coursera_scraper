@@ -7,7 +7,7 @@ from lxml import html
 import time
 import re
 import sys
-
+import csv
 class Crawler_Spider(object):
     
     def __init__(self, url):
@@ -22,18 +22,18 @@ class Crawler_Spider(object):
         driver = webdriver.Firefox()
         driver.get(self.url)
         time.sleep(10)
-        click_loop = True
-        while click_loop:
-            try:
-                print("we're loading")
-                load_courses_link = driver.find_element_by_link_text('Load more courses...').click()
-                time.sleep(10)
-                print("we're finished loading")
-            except NoSuchElementException:
-                print("element doesn't exist")
-                click_loop = False
-                content_type = driver.page_source
-                return(content_type)
+        # click_loop = True
+        # while click_loop:
+        #     try:
+        #         print("we're loading")
+        #         load_courses_link = driver.find_element_by_link_text('Load more courses...').click()
+        #         time.sleep(10)
+        #         print("we're finished loading")
+        #     except NoSuchElementException:
+        #         print("element doesn't exist")
+        #         click_loop = False
+        content_type = driver.page_source
+        return(content_type)
 
 class Parsing_Content(object):
 
@@ -47,7 +47,7 @@ class Parsing_Content(object):
         """
         print("we're are printing the soup")
         soup = BeautifulSoup(self.content)
-        #extracted some extra extraneous info before parsing through categories
+        #extracted some extraneous info before parsing through categories
         for extra_script in soup(["style", "script", "head", "title"]):
             extra_script.extract()    
         #print(soup.prettify())
@@ -92,11 +92,34 @@ class Parsing_Content(object):
         coursera_categories_dictionary['organizations'] = coursera_institution_list
         coursera_categories_dictionary['authors'] = coursera_author_list 
         coursera_categories_dictionary['titles'] = coursera_title_list 
-        coursera_categories_dictionary['start-date'] = coursera_date_list
-        coursera_categories_dictionary['duration'] = coursera_duration_list
+        coursera_categories_dictionary['start-dates'] = coursera_date_list
+        coursera_categories_dictionary['durations'] = coursera_duration_list
         
         print(coursera_categories_dictionary)
         return(coursera_categories_dictionary)
+
+class Categories_To_CSV(object):
+    
+    def __init__(self, category_dictionary):
+        """ 
+        initalize with dictionary from scraper.py
+        """
+        self.category_dictionary = category_dictionary
+        
+    
+    def put_categories_into_file(self):
+        """ 
+        logic that puts the contents of dictionary
+        to rows and columns
+        """
+
+        with open('data.csv', 'w') as ofile:
+            writer=csv.writer(ofile, delimiter='\t')
+            writer.writerow(['Organizations', 'Authors', 'Titles', 'Start-Dates', 'Duration'])
+            for key, value in self.category_dictionary.items():
+                writer.writerow([key] + [value])
+
+                #to do; print values, work on format
 
 def parse_multiple_instructors(coursera_instructor_list):
     """
@@ -133,6 +156,10 @@ def main():
     #grabs categories passing soup object
     category_object = Parsing_Content(content_object)
     category_dictionary = category_object.parse_coursera_categories(soup_object)
+
+    #take categories and puts them into csv
+    category_object = Categories_To_CSV(category_dictionary )
+    category_file_object = category_object.put_categories_into_file()
 
 if __name__ == '__main__':
     main()
