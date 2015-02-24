@@ -8,6 +8,7 @@ import time
 import re
 import sys
 import csv
+
 class Crawler_Spider(object):
     
     def __init__(self, url):
@@ -113,7 +114,6 @@ class Categories_To_CSV(object):
         logic that puts the contents of dictionary
         to rows and columns
         """
-        header = ['Organization', 'Authors', 'Titles', 'Start-Dates', 'Duration']
         result = zip(self.category_dictionary['organizations'], 
             self.category_dictionary['authors'], 
             self.category_dictionary['titles'], 
@@ -121,10 +121,7 @@ class Categories_To_CSV(object):
             self.category_dictionary['durations']
         )
         format_to_string_tabs = "{!s}\t{!s}\t{!s}\t{!s}\t{!s}"
-
         with open('data.tsv', 'w') as ofile: 
-            ofile.write('\t'.join(header))
-            ofile.write('\n')
             for row in result:
                 ofile.write((format_to_string_tabs .format(*row)))
                 ofile.write('\n')
