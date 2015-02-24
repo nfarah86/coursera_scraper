@@ -26,8 +26,8 @@ class Category(DeclarativeBase):
     organization = Column('organization', String, nullable=False)
     title = Column('title', String, nullable=False)
     author = Column('author', String, nullable=False)
-    start_date = Column('start_date', Date)
-    duration = Column('duration', Date, nullable=False)
+    start_date = Column('start_date', String, nullable=False)
+    duration = Column('duration', String, nullable=False)
 
 
 
