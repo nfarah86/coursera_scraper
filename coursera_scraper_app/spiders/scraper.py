@@ -79,8 +79,6 @@ class Parsing_Content(object):
             #parses through authors
             coursera_instructor_links = coursera_category.findAll(attrs={"data-js": "instructor-link"})  
             coursera_instructors_mult_list = parse_multiple_instructors(coursera_instructor_links)
-            if '' in coursera_instructors_mult_list:
-                coursera_instructors_mult_list.remove('')
             coursera_author_list.append(coursera_instructors_mult_list)
             #parses through titles
             coursera_course_titles = coursera_category.find(attrs={"class":"c-courseList-entry-title"}).find(text=True)
@@ -139,10 +137,8 @@ def parse_multiple_instructors(coursera_instructor_list):
         coursera_instructor_lists.append(str(coursera_instructor.text))        
         if coursera_instructor_lists[0] == '': #special case no author listed
             coursera_instructor_lists.append("Unknown Author")
-            coursera_instructor_lists.remove('')
-        elif coursera_instructor_lists[0] != None:
-            coursera_instructor_lists = filter('', coursera_instructor_lists)
-    return(coursera_instructor_lists)  
+    coursera_instructor_lists_filter =list(filter(lambda x:x!= '', coursera_instructor_lists))
+    return(coursera_instructor_lists_filter)  
 
 def parse_start_dates(coursera_start_date_soup):
     """
