@@ -87,7 +87,7 @@ class Parsing_Content(object):
             coursera_start_date_soup = coursera_category.findAll(class_='bt3-col-xs-3 bt3-text-right')
             coursera_date_string, coursera_duration_string = parse_start_dates(coursera_start_date_soup)
             coursera_date_list.append(str(coursera_date_string))
-            coursera_date_list_filter =list(filter(lambda x:x!= '', coursera_date_list))
+            coursera_date_list_filter =list(filter(lambda x:x!= '', coursera_date_list)) #filters empty strings
             coursera_duration_list.append(str(coursera_duration_string))
         
         coursera_categories_dictionary['organizations'] = coursera_institution_list
@@ -138,7 +138,7 @@ def parse_multiple_instructors(coursera_instructor_list):
         coursera_instructor_lists.append(str(coursera_instructor.text))        
         if coursera_instructor_lists[0] == '': #special case no author listed
             coursera_instructor_lists.append("Unknown Author")
-    coursera_instructor_lists_filter =list(filter(lambda x:x!= '', coursera_instructor_lists))
+    coursera_instructor_lists_filter =list(filter(lambda x:x!= '', coursera_instructor_lists)) #filter empty strings
     return(coursera_instructor_lists_filter)  
 
 def parse_start_dates(coursera_start_date_soup):
