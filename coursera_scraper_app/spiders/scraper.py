@@ -22,16 +22,16 @@ class Crawler_Spider(object):
         driver = webdriver.Firefox()
         driver.get(self.url)
         time.sleep(10)
-        # click_loop = True
-        # while click_loop:
-        #     try:
-        #         print("we're loading")
-        #         load_courses_link = driver.find_element_by_link_text('Load more courses...').click()
-        #         time.sleep(10)
-        #         print("we're finished loading")
-        #     except NoSuchElementException:
-        #         print("element doesn't exist")
-        #         click_loop = False
+        click_loop = True
+        while click_loop:
+            try:
+                print("we're loading")
+                load_courses_link = driver.find_element_by_link_text('Load more courses...').click()
+                time.sleep(10)
+                print("we're finished loading")
+            except NoSuchElementException:
+                print("element doesn't exist")
+                click_loop = False
         content_type = driver.page_source
         return(content_type)
 
@@ -75,19 +75,21 @@ class Parsing_Content(object):
             print(count)  
             #parses through organizations
             coursera_institutions = coursera_category.find(class_='c-courseList-entry-university').text          
-            coursera_institution_list.append(coursera_institutions)
+            coursera_institution_list.append(str(coursera_institutions))
             #parses through authors
             coursera_instructor_links = coursera_category.findAll(attrs={"data-js": "instructor-link"})  
             coursera_instructors_mult_list = parse_multiple_instructors(coursera_instructor_links)
+            if '' in coursera_instructors_mult_list:
+                coursera_instructors_mult_list.remove('')
             coursera_author_list.append(coursera_instructors_mult_list)
             #parses through titles
             coursera_course_titles = coursera_category.find(attrs={"class":"c-courseList-entry-title"}).find(text=True)
-            coursera_title_list.append(coursera_course_titles)
+            coursera_title_list.append(str(coursera_course_titles))
             #parses through start date and duration
             coursera_start_date_soup = coursera_category.findAll(class_='bt3-col-xs-3 bt3-text-right')
             coursera_date_string, coursera_duration_string = parse_start_dates(coursera_start_date_soup)
-            coursera_date_list.append(coursera_date_string)
-            coursera_duration_list.append(coursera_duration_string)
+            coursera_date_list.append(str(coursera_date_string))
+            coursera_duration_list.append(str(coursera_duration_string))
         
         coursera_categories_dictionary['organizations'] = coursera_institution_list
         coursera_categories_dictionary['authors'] = coursera_author_list 
@@ -112,14 +114,21 @@ class Categories_To_CSV(object):
         logic that puts the contents of dictionary
         to rows and columns
         """
+        header = ['Organization', 'Authors', 'Titles', 'Start-Dates', 'Duration']
+        result = zip(self.category_dictionary['organizations'], 
+            self.category_dictionary['authors'], 
+            self.category_dictionary['titles'], 
+            self.category_dictionary['start-dates'], 
+            self.category_dictionary['durations']
+        )
+        format_to_string_tabs = "{!s}\t{!s}\t{!s}\t{!s}\t{!s}"
 
-        with open('data.csv', 'w') as ofile:
-            writer=csv.writer(ofile, delimiter='\t')
-            writer.writerow(['Organizations', 'Authors', 'Titles', 'Start-Dates', 'Duration'])
-            for key, value in self.category_dictionary.items():
-                writer.writerow([key] + [value])
-
-                #to do; print values, work on format
+        with open('data.tsv', 'w') as ofile: 
+            ofile.write('\t'.join(header))
+            ofile.write('\n')
+            for row in result:
+                ofile.write((format_to_string_tabs .format(*row)))
+                ofile.write('\n')
 
 def parse_multiple_instructors(coursera_instructor_list):
     """
@@ -127,8 +136,12 @@ def parse_multiple_instructors(coursera_instructor_list):
     """
     coursera_instructor_lists = []
     for coursera_instructor in coursera_instructor_list:
-        coursera_instructor_lists.append(coursera_instructor.text)
-    coursera_instructor_lists = list(filter(''.__ne__,coursera_instructor_lists)) #filters empty strings 
+        coursera_instructor_lists.append(str(coursera_instructor.text))        
+        if coursera_instructor_lists[0] == '': #special case no author listed
+            coursera_instructor_lists.append("Unknown Author")
+            coursera_instructor_lists.remove('')
+        elif coursera_instructor_lists[0] != None:
+            coursera_instructor_lists = filter('', coursera_instructor_lists)
     return(coursera_instructor_lists)  
 
 def parse_start_dates(coursera_start_date_soup):
@@ -157,8 +170,8 @@ def main():
     category_object = Parsing_Content(content_object)
     category_dictionary = category_object.parse_coursera_categories(soup_object)
 
-    #take categories and puts them into csv
-    category_object = Categories_To_CSV(category_dictionary )
+    #take categories and puts them into .csv doc
+    category_object = Categories_To_CSV(category_dictionary)
     category_file_object = category_object.put_categories_into_file()
 
 if __name__ == '__main__':
