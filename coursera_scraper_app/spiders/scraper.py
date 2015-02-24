@@ -87,12 +87,13 @@ class Parsing_Content(object):
             coursera_start_date_soup = coursera_category.findAll(class_='bt3-col-xs-3 bt3-text-right')
             coursera_date_string, coursera_duration_string = parse_start_dates(coursera_start_date_soup)
             coursera_date_list.append(str(coursera_date_string))
+            coursera_date_list_filter =list(filter(lambda x:x!= '', coursera_date_list))
             coursera_duration_list.append(str(coursera_duration_string))
         
         coursera_categories_dictionary['organizations'] = coursera_institution_list
         coursera_categories_dictionary['authors'] = coursera_author_list 
         coursera_categories_dictionary['titles'] = coursera_title_list 
-        coursera_categories_dictionary['start-dates'] = coursera_date_list
+        coursera_categories_dictionary['start-dates'] = coursera_date_list_filter
         coursera_categories_dictionary['durations'] = coursera_duration_list
         
         print(coursera_categories_dictionary)

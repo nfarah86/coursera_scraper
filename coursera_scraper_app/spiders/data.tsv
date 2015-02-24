@@ -56,9 +56,9 @@ University of Illinois at Urbana-Champaign	['ChengXiang Zhai']	Text Retrieval an
 University of Wisconsin–Madison	['Steven Ackerman', 'Margaret Mooney']	Changing Weather and Climate in the Great Lakes Region	Feb 23rd, 2015	4 weeks long
 École Polytechnique Fédérale de Lausanne	['Jamila Sam', 'Jean-Cédric Chappelier']	Introduction à la programmation orientée objet (en C++)	Feb 23rd, 2015	7 weeks long
 Ludwig-Maximilians-Universität München (LMU)	['Christopher Balme']	Theatre and Globalization	Feb 16th, 2015	6 weeks long
-University of Minnesota	['Joseph A Konstan', 'Michael D Ekstrand']	Introduction to Recommender Systems	Go at your own pace.	Indeterminate Duration
 University of California, Irvine	['Dr. Peter Navarro']	The Power of Macroeconomics: Economic Principles in the Real World	Go at your own pace.	Indeterminate Duration
 University of California, Irvine	['Dr. Peter Navarro']	The Power of Microeconomics: Economic Principles in the Real World	Go at your own pace.	Indeterminate Duration
+University of Minnesota	['Joseph A Konstan', 'Michael D Ekstrand']	Introduction to Recommender Systems	Go at your own pace.	Indeterminate Duration
 Icahn School of Medicine at Mount Sinai	['Eric Sobie, PhD']	Dynamical Modeling Methods for Systems Biology	Mar 2nd, 2015	7 weeks long
 Johns Hopkins University	['Roger D. Peng, PhD', 'Jeff Leek, PhD', 'Brian Caffo, PhD']	Reproducible Research	Mar 2nd, 2015	4 weeks long
 University of Houston System	['Dr. Paige K. Evans', 'Mariam Manuel']	Preparing for the AP Physics 1 Exam	Mar 8th, 2015	8 weeks long
@@ -86,8 +86,8 @@ University of Maryland, College Park	['Dr. Thomas J. Mierzwa']	Innovation for En
 Princeton University	['Unknown Author']	Fog Networks and the Internet of Things	Mar 2nd, 2015	6 weeks long
 Princeton University	['Kevin Wayne', 'Robert Sedgewick']	Algorithms, Part II	Mar 20th, 2015	6 weeks long
 Case Western Reserve University	['Professor Michael Goldberg']	Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies	Go at your own pace.	Indeterminate Duration
-University of Virginia	['Edward D. Hess']	Grow to Greatness: Smart Growth for Private Businesses, Part II	Go at your own pace.	Indeterminate Duration
 The University of North Carolina at Chapel Hill	['Dr. William  Ferris']	The American South: Its Stories, Music, and Art	Go at your own pace.	Indeterminate Duration
+University of Virginia	['Edward D. Hess']	Grow to Greatness: Smart Growth for Private Businesses, Part II	Go at your own pace.	Indeterminate Duration
 University of Virginia	['Edward D. Hess']	Grow to Greatness: Smart Growth for Private Businesses, Part I	Go at your own pace.	Indeterminate Duration
 University of Virginia	['Professor Gerry Warburg']	Public Policy Challenges of the 21st Century	Go at your own pace.	Indeterminate Duration
 Columbia University	['Martin Haugh', 'Garud Iyengar']	Financial Engineering and Risk Management Part I	Go at your own pace.	Indeterminate Duration
@@ -139,8 +139,8 @@ University of Virginia	['R. Edward Freeman  ']	New Models of Business in Society
 University of Minnesota	['Karen  Monsen, Ph.D., RN, FAAN']	Interprofessional Healthcare Informatics 	Go at your own pace.	Indeterminate Duration
 University of Toronto	['Nicholas James Provart']	Bioinformatic Methods I	Go at your own pace.	Indeterminate Duration
 The Ohio State University	['Jim Fowler, PhD']	Calculus Two: Sequences and Series	Go at your own pace.	Indeterminate Duration
-Relay Graduate School of Education	['Maia Heyck-Merlin']	Get Organized: How to be a Together Teacher	Go at your own pace.	Indeterminate Duration
 Technical University of Denmark (DTU)	['Eva Bundgaard', 'Frederik C. Krebs', 'Mikkel Jørgensen', 'Morten Vesterager Madsen']	Organic Solar Cells - Theory and Practice	Go at your own pace.	Indeterminate Duration
+Relay Graduate School of Education	['Maia Heyck-Merlin']	Get Organized: How to be a Together Teacher	Go at your own pace.	Indeterminate Duration
 Duke University	['Dr. David Boyd']	The Challenges of Global Health	Go at your own pace.	Indeterminate Duration
 The University of North Carolina at Chapel Hill	['Dr.  Karin Yeatts  ', 'Dr. Lorraine Alexander  ']	Epidemiology: The Basic Science of Public Health	Go at your own pace.	Indeterminate Duration
 University of Kentucky	['Dr. Allison Soult', 'Dr. Kim Woodrum']	Advanced Chemistry	Go at your own pace.	Indeterminate Duration
@@ -200,85 +200,86 @@ University of Illinois at Urbana-Champaign	['Roy H. Campbell']	Cloud Computing A
 New Teacher Center	['Lisa Mount']	Common Core in Action II: Exploring Literacy Design Collaborative Tools	Mar 30th, 2015	6 weeks long
 Vanderbilt University	['Dr. Douglas C. Schmidt', 'Dr. C. Jules White']	Programming Cloud Services for Android Handheld Systems: Security	Jul 22nd, 2015	5 weeks long
 American Museum of Natural History	['Edmond Mathez, Ph.D.', 'Ro Kinzler, Ph.D.']	The Dynamic Earth: A Course for Educators	May 4th, 2015	4 weeks long
+The University of Melbourne	['Esther Care', 'Patrick Griffin']	Assessment and Teaching of 21st Century Skills	Apr 20th, 2015	6 weeks long
 University of Pennsylvania	['Paul A. Offit, MD']	Vaccines	Apr 13th, 2015	6 weeks long
 University of Colorado System	['Dr. Jay Lemery, MD']	Foundations for Global Health Responders	May 4th, 2015	6 weeks long
 Nanyang Technological University, Singapore	['Alan K. L. Chan']	Explorations in Confucian Philosophy	Sep 28th, 2015	8 weeks long
 Stanford University	['Andrew Ng']	Machine Learning	Jan 19th, 2015	10 weeks long
-University of Illinois at Urbana-Champaign	['Aric Rindfleisch']	Marketing in a Digital World	Apr 1st, 2015	4 weeks long
 University of Pennsylvania	['Robert Ghrist']	Calculus: Single Variable	May 22nd, 2015	13 weeks long
-Yale University	['Robert Shiller']	Financial Markets 金融市场（中文版）	Feb 9th, 2015	8 weeks long
-Universiteit Leiden	['Richard Thomas Griffiths']	Configuring the World: A Critical Political Economy Approach	Feb 9th, 2015	8 weeks long
-Yale University	['Craig Wright']	Introduction to Classical Music	Jan 12th, 2015	8 weeks long
-Berklee College of Music	['George W. Russell, Jr.']	Developing Your Musicianship	Feb 2nd, 2015	6 weeks long
+University of Illinois at Urbana-Champaign	['Aric Rindfleisch']	Marketing in a Digital World	Apr 1st, 2015	4 weeks long
 Berklee College of Music	['Pat Pattison']	Songwriting	Feb 2nd, 2015	6 weeks long
 Case Western Reserve University	['Richard Boyatzis']	Inspiring Leadership through Emotional Intelligence	Feb 2nd, 2015	8 weeks long
+Yale University	['Robert Shiller']	Financial Markets 金融市场（中文版）	Feb 9th, 2015	8 weeks long
 University of California, San Francisco	['Daniel Lowenstein, MD', 'S. Andrew Josephson, MD', 'Wade Smith, MD']	Introduction to Clinical Neurology	Feb 9th, 2015	6 weeks long
+Universiteit Leiden	['Richard Thomas Griffiths']	Configuring the World: A Critical Political Economy Approach	Feb 9th, 2015	8 weeks long
 Brown University	['Philip Klein']	Coding the Matrix: Linear Algebra through Computer Science Applications	Feb 2nd, 2015	10 weeks long
 Berklee College of Music	['Loudon Stearns']	Introduction to Music Production	Feb 2nd, 2015	6 weeks long
+Yale University	['Craig Wright']	Introduction to Classical Music	Jan 12th, 2015	8 weeks long
 University of Pennsylvania	['Kevin Werbach']	Gamification	Jan 26th, 2015	6 weeks long
 The University of Edinburgh	['Professor Nat Waran', 'Dr Fritha Langford', 'Heather J Bacon, BSc BVSc CertZooMed MRCVS', 'Miss Hayley  Walters, RVN', 'Dr Jill MacKay']	Animal Behaviour and Welfare	Feb 9th, 2015	6 weeks long
+Berklee College of Music	['George W. Russell, Jr.']	Developing Your Musicianship	Feb 2nd, 2015	6 weeks long
 Duke University	['Dr. Walter  Sinnott-Armstrong', 'Dr. Ram  Neta']	Think Again: How to Reason and Argue	Jan 5th, 2015	12 weeks long
+The University of Edinburgh	['Dr Michael Edwards', 'Dr Zack Moir', 'Richard Worth', 'Dr Nikki  Moran', 'Dr John Philip Kitchen, MA BMus PhD  FRCO LRAM']	Fundamentals of Music Theory	Aug 1st, 2015	5 weeks long
 University of Pennsylvania	['Christian Terwiesch']	Introduction to Operations Management	Apr 6th, 2015	4 weeks long
 University of California, San Diego 	['Scott  Klemmer']	Human-Computer Interaction Design	Jun 16th, 2015	9 weeks long
-University of California, Irvine	[]	Project Management: The Basics for Success 	Apr 6th, 2015	4 weeks long
-University of California, Irvine	['Margaret  Meloni']	Initiating and Planning Projects	May 18th, 2015	4 weeks long
-The University of Edinburgh	['Dr Michael Edwards', 'Dr Zack Moir', 'Richard Worth', 'Dr Nikki  Moran', 'Dr John Philip Kitchen, MA BMus PhD  FRCO LRAM']	Fundamentals of Music Theory	Aug 1st, 2015	5 weeks long
 Stanford University	['Dan Boneh']	Cryptography I	Apr 20th, 2015	6 weeks long
 Stanford University	['Michael Genesereth']	Introduction to Logic	Sep 28th, 2015	8 weeks long
+University of California, Irvine	[]	Project Management: The Basics for Success 	Apr 6th, 2015	4 weeks long
+University of California, Irvine	['Margaret  Meloni']	Initiating and Planning Projects	May 18th, 2015	4 weeks long
 Princeton University	['Kevin Wayne', 'Robert Sedgewick']	Algorithms, Part I	Jan 23rd, 2015	6 weeks long
+University of Pittsburgh	['Michael Beach']	Disaster Preparedness	Jan 26th, 2015	6 weeks long
 University of Illinois at Urbana-Champaign	['Dr William Cope', 'Dr Mary Kalantzis']	e-Learning Ecologies	Jan 19th, 2015	8 weeks long
 University of Illinois at Urbana-Champaign	['Dr. Prasanta Kalita']	Global Postharvest Loss Prevention: Fundamentals, Technologies, and Actors	Feb 2nd, 2015	4 weeks long
-University of London	['Dr Emm Johnstone', 'Dr Graham Smith', 'Professor Justin Champion', 'Professor  Nigel Saul', 'Professor Jonathan Phillips']	The Magna Carta and its Legacy 	Jan 12th, 2015	6 weeks long
-University of Rochester	['John Covach']	The Music of the Rolling Stones, 1962-1974	Jan 17th, 2015	7 weeks long
-Berklee College of Music	['Erin Barra']	Introduction to Ableton Live	Feb 2nd, 2015	3 weeks long
-Duke University	['John A. Bartlett, M.D.', 'Franklin Mosha, Ph.D.', 'Mramba Nyindo, Ph.D.']	Tropical Parasitology: Protozoans, Worms, Vectors and Human Diseases	Feb 9th, 2015	8 weeks long
-University System of Georgia	['Anissa Lokey-Vega, Ph.D.', 'Jordan P Cameron']	 K-12 Blended & Online Learning	Jan 13th, 2015	8 weeks long
-Duke University	['Dr. Jennifer M. Groh, Ph.D.']	The Brain and Space	Dec 16th, 2014	6 weeks long
-Duke University	['Dale Purves']	Visual Perception and the Brain	Jan 26th, 2015	8 weeks long
-Johns Hopkins University	['John McGready, PhD, MS']	Statistical Reasoning for Public Health 2: Regression Methods	Jan 26th, 2015	7 weeks long
-Yale University	['Ian Shapiro']	Moral Foundations of Politics 	Jan 12th, 2015	8 weeks long
-University of Houston System	['Dr. Sara G. McNeil', 'Bernard R Robin']	Powerful Tools for Teaching and Learning: Web 2.0 Tools	Feb 1st, 2015	5 weeks long
-University of Florida	['Pedro A Malavet, LL.M.', 'Loren Turner, J.D.', 'Sharon E. Rush, J.D.', 'Jeffrey L. Harrison, J.D., Ph.D., M.B.A.', 'Kenneth B. Nunn, J.D.', 'Jennifer L. Wondracek, J.D., M.L.I.S.']	The Global Student's Introduction to U.S. Law	Jan 26th, 2015	8 weeks long
-University of Minnesota	['Ann S. Masten, Ph.D., LP']	Resilience in Children Exposed to Trauma, Disaster and War: Global Perspectives	Feb 2nd, 2015	6 weeks long
-Universitat Autònoma de Barcelona	['Elena Valderrama', 'Jean-Pierre Deschamps', 'Lluis Terés']	Digital Systems - Sistemas Digitales: De las puertas lógicas al procesador	Feb 9th, 2015	8 weeks long
-State University of New York	['Prof. Yvonne D. Harrison, PhD', 'Prof. Vic Murray, PhD']	The Governance of Nonprofit Organizations	Jan 26th, 2015	16 weeks long
-Yale University	['Akhil Reed Amar']	America's Unwritten Constitution	Jan 12th, 2015	6 weeks long
-University of Maryland, College Park	['Jennifer Golbeck']	Usable Security	Jan 19th, 2015	6 weeks long
-University of Michigan	['Frederick Conrad, Ph.D.', 'Frauke Kreuter, Ph.D.']	Questionnaire Design for Social Surveys	Feb 2nd, 2015	6 weeks long
-Universitat Autònoma de Barcelona	['Silvia Solá Viñals', 'Jose Ygoa-Bayer', 'Ian James']	English for teaching purposes	Feb 2nd, 2015	4 weeks long
-University of Pittsburgh	['Michael Beach']	Disaster Preparedness	Jan 26th, 2015	6 weeks long
 University of Copenhagen	['Ib Bondebjerg']	Scandinavian Film and Television	Feb 2nd, 2015	5 weeks long
+University of London	['Dr Emm Johnstone', 'Dr Graham Smith', 'Professor Justin Champion', 'Professor  Nigel Saul', 'Professor Jonathan Phillips']	The Magna Carta and its Legacy 	Jan 12th, 2015	6 weeks long
 University of Pittsburgh	['Valerie Swigart, Ph.D. R.N.', 'Michael Gold, Ph.D.']	Clinical Terminology for International and U.S. Students	Feb 9th, 2015	6 weeks long
 Berklee College of Music	['Gary Burton']	Jazz Improvisation	Feb 2nd, 2015	5 weeks long
 Johns Hopkins University	['Brian Caffo, PhD']	Mathematical Biostatistics Boot Camp 2	Jan 19th, 2015	7 weeks long
 The University of Chicago	['John H. Cochrane']	Asset Pricing, Part 1	Jan 18th, 2015	7 weeks long
+University of Rochester	['John Covach']	The Music of the Rolling Stones, 1962-1974	Jan 17th, 2015	7 weeks long
 Caltech	['S. George Djorgovski']	Galaxies and Cosmology	Jan 5th, 2015	10 weeks long
+Berklee College of Music	['Erin Barra']	Introduction to Ableton Live	Feb 2nd, 2015	3 weeks long
 The Chinese University of Hong Kong	['Prof. Raymond W. Yeung']	Information Theory	Jan 5th, 2015	18 weeks long
+Duke University	['John A. Bartlett, M.D.', 'Franklin Mosha, Ph.D.', 'Mramba Nyindo, Ph.D.']	Tropical Parasitology: Protozoans, Worms, Vectors and Human Diseases	Feb 9th, 2015	8 weeks long
+University System of Georgia	['Anissa Lokey-Vega, Ph.D.', 'Jordan P Cameron']	 K-12 Blended & Online Learning	Jan 13th, 2015	8 weeks long
 University of Illinois at Urbana-Champaign	['Rob A. Rutenbar']	VLSI CAD:  Logic to Layout	Feb 2nd, 2015	10 weeks long
 Duke University	['Leonard E. White, Ph.D. ']	Medical Neuroscience	Jan 5th, 2015	12 weeks long
+Duke University	['Dr. Jennifer M. Groh, Ph.D.']	The Brain and Space	Dec 16th, 2014	6 weeks long
 University of Illinois at Urbana-Champaign	['Wen-mei W. Hwu']	Heterogeneous Parallel Programming	Jan 12th, 2015	9 weeks long
 Yale University	['Diana E.E. Kleiner']	Roman Architecture	Feb 2nd, 2015	12 weeks long
 American Museum of Natural History	['Rob DeSalle, Ph.D.', 'David Randle, Ph.D.']	Genetics and Society: A Course for Educators	Feb 2nd, 2015	4 weeks long
 University of Illinois at Urbana-Champaign	['Dr. José J. Vázquez-Cognet']	Microeconomics Principles	Dec 22nd, 2014	15 weeks long
+Duke University	['Dale Purves']	Visual Perception and the Brain	Jan 26th, 2015	8 weeks long
 Georgia Institute of Technology	['Dr. Bonnie H. Ferri', 'Dr. A. Bruno Frazier', 'Nathan V. Parrish']	Linear Circuits	Jan 4th, 2015	10 weeks long
 University of London	['Julian Birkinshaw']	Managing the Company of the Future	Feb 2nd, 2015	5 weeks long
 The University of North Carolina at Chapel Hill	['Donald Hornstein']	Introduction to Environmental Law and Policy	Jan 12th, 2015	6 weeks long
 National University of Singapore	['John Holbo, Associate Professor']	Reason and Persuasion: Thinking Through Three Dialogues By Plato	Jan 12th, 2015	8 weeks long
 University of Pennsylvania	['Stephanie McCurry']	History of the Slave South	Jan 19th, 2015	10 weeks long
+Johns Hopkins University	['John McGready, PhD, MS']	Statistical Reasoning for Public Health 2: Regression Methods	Jan 26th, 2015	7 weeks long
 Nanyang Technological University, Singapore	['Tim White']	Beauty, Form & Function: An Exploration of Symmetry	Jan 12th, 2015	8 weeks long
+Yale University	['Ian Shapiro']	Moral Foundations of Politics 	Jan 12th, 2015	8 weeks long
+University of Houston System	['Dr. Sara G. McNeil', 'Bernard R Robin']	Powerful Tools for Teaching and Learning: Web 2.0 Tools	Feb 1st, 2015	5 weeks long
+University of Florida	['Pedro A Malavet, LL.M.', 'Loren Turner, J.D.', 'Sharon E. Rush, J.D.', 'Jeffrey L. Harrison, J.D., Ph.D., M.B.A.', 'Kenneth B. Nunn, J.D.', 'Jennifer L. Wondracek, J.D., M.L.I.S.']	The Global Student's Introduction to U.S. Law	Jan 26th, 2015	8 weeks long
 Johns Hopkins University	['Keeve Nachman, PhD, MHS', 'Robert S. Lawrence, MD']	An Introduction to the U.S. Food System: Perspectives from Public Health	Jan 20th, 2015	6 weeks long
 University of New Mexico	['Dr. Amy Levi, PhD, CNM, WHNP-BC', 'Dr. Van Roper, RN, FNP-C, PhD']	Rural Health Nursing	Feb 2nd, 2015	8 weeks long
 University of Maryland, College Park	['Dr. Gary  LaFree', 'Bill Braniff']	Understanding Terrorism and the Terrorist Threat	Jan 12th, 2015	8 weeks long
+University of Minnesota	['Ann S. Masten, Ph.D., LP']	Resilience in Children Exposed to Trauma, Disaster and War: Global Perspectives	Feb 2nd, 2015	6 weeks long
+Universitat Autònoma de Barcelona	['Elena Valderrama', 'Jean-Pierre Deschamps', 'Lluis Terés']	Digital Systems - Sistemas Digitales: De las puertas lógicas al procesador	Feb 9th, 2015	8 weeks long
 University of Illinois at Urbana-Champaign	['Dr. Jonathan Tomkin']	Introduction to Sustainability	Jan 19th, 2015	8 weeks long
 National University of Singapore	['Peter Edwards']	Write Like Mozart: An Introduction to Classical Music Composition	Jan 13th, 2015	6 weeks long
 University of Illinois at Urbana-Champaign	['Dr. Jim Lowe, DVM, MS, Dip ABVP (Food Animal)', 'Dr. Brian Aldridge, BVSc, MS, PhD, Dip ACVIM (Large Animal), MRCVS']	Sustainable Food Production Through Livestock Health Management	Jan 26th, 2015	6 weeks long
 University of Manchester	['Prof. David M. Schultz', 'Dr Rochelle Taylor']	Our Earth: Its Climate, History, and Processes	Jan 19th, 2015	5 weeks long
 Johns Hopkins University	['Dr. Henry Perry']	Health for All Through Primary Health Care	Jan 28th, 2015	5 weeks long
 University of Alberta	['Philip John Currie, PhD']	Dino 101: Dinosaur Paleobiology	Jan 3rd, 2015	12 weeks long
+State University of New York	['Prof. Yvonne D. Harrison, PhD', 'Prof. Vic Murray, PhD']	The Governance of Nonprofit Organizations	Jan 26th, 2015	16 weeks long
 The University of Edinburgh	['Dr Andrea D Ellis']	Equine Nutrition	Jan 26th, 2015	5 weeks long
 University of Minnesota	['Dr. James Fricton, DDS, MS']	Preventing Chronic Pain: A Human Systems Approach	Jan 26th, 2015	10 weeks long
 University of California, San Francisco	['Catherine R. Lucey, MD']	Clinical Problem Solving	Jan 26th, 2015	6 weeks long
 Icahn School of Medicine at Mount Sinai	['Avi Ma’ayan, PhD']	Network Analysis in Systems Biology	Jan 5th, 2015	7 weeks long
+Yale University	['Akhil Reed Amar']	America's Unwritten Constitution	Jan 12th, 2015	6 weeks long
+University of Maryland, College Park	['Jennifer Golbeck']	Usable Security	Jan 19th, 2015	6 weeks long
+University of Michigan	['Frederick Conrad, Ph.D.', 'Frauke Kreuter, Ph.D.']	Questionnaire Design for Social Surveys	Feb 2nd, 2015	6 weeks long
+Universitat Autònoma de Barcelona	['Silvia Solá Viñals', 'Jose Ygoa-Bayer', 'Ian James']	English for teaching purposes	Feb 2nd, 2015	4 weeks long
 University of Manchester	["Patrick J O'Malley, D.Sc", 'Michael W. Anderson, FRSC', 'Jonathan Agger, MRSC']	Introduction to Physical Chemistry	Feb 2nd, 2015	6 weeks long
 École Polytechnique Fédérale de Lausanne	['Paolo Prandoni', 'Martin Vetterli']	Digital Signal Processing	Jan 19th, 2015	10 weeks long
 Johns Hopkins University	['Martin Lindquist, PhD, MSc']	Statistical Analysis of fMRI Data	Feb 9th, 2015	6 weeks long
@@ -290,16 +291,18 @@ University of Illinois at Urbana-Champaign	['Gregory L. Davis, CPA, CMA, CFM, CC
 University of Wisconsin–Madison	['Jesse  Stommel', 'Sarah L. Marty', 'R L Widmann', 'Catherine DeRose']	 Shakespeare in Community	Apr 26th, 2015	4 weeks long
 University of Amsterdam	['Gerben Moerman']	Qualitative Research Methods 	Oct 26th, 2015	6 weeks long
 University of California, Irvine	[]	Finance for Non-Financial People	Apr 6th, 2015	4 weeks long
+University of Pennsylvania	['Kenneth  L.  Shropshire']	The Global Business of Sports	Jul 1st, 2015	7 weeks long
 University of Illinois at Urbana-Champaign	['Scott Weisbenner']	Financial Evaluation and Strategy: Investments	Aug 1st, 2015	4 weeks long
 University of California, Irvine	['Patricia  Bravo']	Communication in the 21st Century Workplace	Apr 6th, 2015	4 weeks long
+The University of Melbourne	['Dr. Marnie Blewitt']	Epigenetic Control of Gene Expression	Jun 29th, 2015	8 weeks long
 The University of Melbourne	['Peter McPhee']	The French Revolution	Jul 6th, 2015	8 weeks long
 Wesleyan University	['Jeanine Basinger']	Marriage and the Movies: A History	May 18th, 2015	5 weeks long
 University of California, San Diego 	['Scott  Klemmer']	Interaction Techniques	Jun 16th, 2015	3 weeks long
 University of Amsterdam	['Annemarie Zand Scholten']	Solid Science: Research Methods	Aug 31st, 2015	6 weeks long
-University of California, Irvine	[]	Work Smarter, Not Harder: Time Management for Personal & Professional Productivity 	Apr 6th, 2015	4 weeks long
-University of Amsterdam	['Matthijs Rooduijn']	Descriptive Statistics	Jan 4th, 2016	6 weeks long
 Caltech	['Mike Brown']	The Science of the Solar System	Mar 30th, 2015	9 weeks long
+University of California, Irvine	[]	Work Smarter, Not Harder: Time Management for Personal & Professional Productivity 	Apr 6th, 2015	4 weeks long
 University of Pennsylvania	['Karl  T. Ulrich']	Design: Creation of Artifacts in Society	Apr 20th, 2015	8 weeks long
+University of Amsterdam	['Matthijs Rooduijn']	Descriptive Statistics	Jan 4th, 2016	6 weeks long
 The Pennsylvania State University	['Prof. Kelleann Foster']	Geodesign: Change Your World	Jul 8th, 2015	5 weeks long
 University of California, San Diego 	['Scott  Klemmer']	Designing, Running, and Analyzing Experiments	Jun 16th, 2015	3 weeks long
 Stanford University	['Dan Boneh']	Cryptography II	Jun 1st, 2015	6 weeks long
@@ -353,35 +356,35 @@ Stanford University	['Jure Leskovec', 'Anand Rajaraman', 'Jeff Ullman']	Mining M
 Wesleyan University	['Scott Plous']	Social Psychology	Jul 14th, 2014	7 weeks long
 Stanford University	['Tim Roughgarden']	Algorithms: Design and Analysis, Part 1	Jan 19th, 2015	6 weeks long
 Yale University	['Robert Shiller']	Financial Markets	There are no open sessions.	Indeterminate Duration
-Stanford University	['Nick Parlante']	Computer Science 101		Indeterminate Duration
-École Polytechnique Fédérale de Lausanne	['Martin Odersky']	Functional Programming Principles in Scala	There are no open sessions.	Indeterminate Duration
-École Polytechnique Fédérale de Lausanne	['Marco Picasso']	Analyse numérique pour ingénieurs	Feb 6th, 2015	8 weeks long
-University of Michigan	['Sally Santen, M.D., Ph.D.']	Teaching and Assessing Clinical Skills	Feb 2nd, 2015	6 weeks long
-University of Kentucky	['Dr. Allison Soult', 'Dr. Kim Woodrum']	Chemistry	Jan 13th, 2015	10 weeks long
-The University of Edinburgh	['Dr. Gerhard Wickler', 'Prof. Austin Tate']	Artificial Intelligence Planning	Jan 12th, 2015	7 weeks long
-University of Kentucky	['Dr. Phil Kraemer', 'Dr. Jonathan Golding']	How to Succeed in College	Jan 27th, 2015	6 weeks long
-Stanford University	['Daniel A. McFarland']	Organizational Analysis (Self-Paced)	Sep 22nd, 2014	10 weeks long
-University of Michigan	['Dr. Richard Meisler']	AIDS: Fear and Hope	Feb 2nd, 2015	7 weeks long
-Stanford University	['Stan Deresinski, MD', 'Elizabeth Robilotti']	Antimicrobial Stewardship: Optimization of Antibiotic Practices	Nov 22nd, 2013	104 weeks long
-The Ohio State University	['Dr. Kenneth  M.  Hale, RPh, PhD']	Introduction to Pharmacy	Jan 8th, 2015	7 weeks long
-Ludwig-Maximilians-Universität München (LMU)	['Martha Merrow', 'Till Roenneberg']	Circadian clocks: how rhythms structure life	Jan 15th, 2015	6 weeks long
-Lund University	['Jörgen Hettne', 'Cécile Brokelind', 'Sanja Bogojevi ć', 'Michael Bogdan', 'Anna Wiberg', 'Mia Rönnmar ', 'Björn Lundqvist', 'Henrik Norinder', 'Ulf Maunsbach', 'Eduardo Gill Pedro', 'Magnus Schmauch', 'Ulrika Wennersten', 'Angelica Ericsson', 'Hans Henrik Lidgard', 'Justin Pierce', 'Xavier Groussot', 'Timo Minssen']	Introduction to European Business Law	Jan 5th, 2015	10 weeks long
-IESE Business School	['Prof. Pankaj Ghemawat']	Globalization of Business Enterprise	Feb 2nd, 2015	8 weeks long
-Princeton University	['Robert Sedgewick']	Analysis of Algorithms	Jan 23rd, 2015	6 weeks long
-Stanford University	['Dr. Kim F. Rhoads']	Practical tips to improve Asian American participation in cancer clinical trials	Aug 29th, 2013	104 weeks long
-University of Geneva	['Martin Beniston', 'Pascal Peduzzi', 'Sandy Alexander Bisaro', 'Arthur Lyon Dahl', 'Angus Mackay', 'Pradeep Kurukulasuriya']	Pathways to climate change adaptation: the case of Small Island Developing States	Jan 26th, 2015	5 weeks long
-State University of New York	['Dr. Thomas P. Mackey', 'Professor Trudi Jacobson', 'Kathleen Stone', "Kelsey O'Brien", 'Ms. Jenna Pitera', 'Allison Hosier', 'Dr. Michele Forte', 'Amy McQuigge']	Metaliteracy: Empowering Yourself in a Connected World	Feb 2nd, 2015	10 weeks long
-University of Amsterdam	['Rutger de  Graaf']	Introduction to Communication Science	Feb 4th, 2015	7 weeks long
+Stanford University	['Nick Parlante']	Computer Science 101	There are no open sessions.	Indeterminate Duration
+École Polytechnique Fédérale de Lausanne	['Martin Odersky']	Functional Programming Principles in Scala	Feb 6th, 2015	Indeterminate Duration
+École Polytechnique Fédérale de Lausanne	['Marco Picasso']	Analyse numérique pour ingénieurs	Feb 2nd, 2015	8 weeks long
+University of Michigan	['Sally Santen, M.D., Ph.D.']	Teaching and Assessing Clinical Skills	Jan 13th, 2015	6 weeks long
+University of Kentucky	['Dr. Allison Soult', 'Dr. Kim Woodrum']	Chemistry	Jan 12th, 2015	10 weeks long
+The University of Edinburgh	['Dr. Gerhard Wickler', 'Prof. Austin Tate']	Artificial Intelligence Planning	Jan 27th, 2015	7 weeks long
+University of Kentucky	['Dr. Phil Kraemer', 'Dr. Jonathan Golding']	How to Succeed in College	Sep 22nd, 2014	6 weeks long
+Stanford University	['Daniel A. McFarland']	Organizational Analysis (Self-Paced)	Feb 2nd, 2015	10 weeks long
+University of Michigan	['Dr. Richard Meisler']	AIDS: Fear and Hope	Nov 22nd, 2013	7 weeks long
+Stanford University	['Stan Deresinski, MD', 'Elizabeth Robilotti']	Antimicrobial Stewardship: Optimization of Antibiotic Practices	Jan 8th, 2015	104 weeks long
+The Ohio State University	['Dr. Kenneth  M.  Hale, RPh, PhD']	Introduction to Pharmacy	Jan 15th, 2015	7 weeks long
+Ludwig-Maximilians-Universität München (LMU)	['Martha Merrow', 'Till Roenneberg']	Circadian clocks: how rhythms structure life	Jan 5th, 2015	6 weeks long
+Lund University	['Jörgen Hettne', 'Cécile Brokelind', 'Sanja Bogojevi ć', 'Michael Bogdan', 'Anna Wiberg', 'Mia Rönnmar ', 'Björn Lundqvist', 'Henrik Norinder', 'Ulf Maunsbach', 'Eduardo Gill Pedro', 'Magnus Schmauch', 'Ulrika Wennersten', 'Angelica Ericsson', 'Hans Henrik Lidgard', 'Justin Pierce', 'Xavier Groussot', 'Timo Minssen']	Introduction to European Business Law	Feb 2nd, 2015	10 weeks long
+IESE Business School	['Prof. Pankaj Ghemawat']	Globalization of Business Enterprise	Jan 23rd, 2015	8 weeks long
+Princeton University	['Robert Sedgewick']	Analysis of Algorithms	Aug 29th, 2013	6 weeks long
+Stanford University	['Dr. Kim F. Rhoads']	Practical tips to improve Asian American participation in cancer clinical trials	Jan 26th, 2015	104 weeks long
+University of Geneva	['Martin Beniston', 'Pascal Peduzzi', 'Sandy Alexander Bisaro', 'Arthur Lyon Dahl', 'Angus Mackay', 'Pradeep Kurukulasuriya']	Pathways to climate change adaptation: the case of Small Island Developing States	Feb 2nd, 2015	5 weeks long
+State University of New York	['Dr. Thomas P. Mackey', 'Professor Trudi Jacobson', 'Kathleen Stone', "Kelsey O'Brien", 'Ms. Jenna Pitera', 'Allison Hosier', 'Dr. Michele Forte', 'Amy McQuigge']	Metaliteracy: Empowering Yourself in a Connected World	Feb 4th, 2015	10 weeks long
+University of Amsterdam	['Rutger de  Graaf']	Introduction to Communication Science	Jan 19th, 2015	7 weeks long
 Nanyang Technological University, Singapore	['Vijay Sethi']	Foundations of E-Commerce 	Jan 19th, 2015	6 weeks long
-University of Minnesota	['Dr.  Christopher J.  Cramer']	Statistical Molecular Thermodynamics	Jan 19th, 2015	11 weeks long
-École normale supérieure	['Werner Krauth']	Statistical Mechanics: Algorithms and Computations	Feb 2nd, 2015	10 weeks long
-Caltech	['Amy Braverman', 'Daniel J. Crichton', 'Scott Davidoff', 'S. George Djorgovski', 'Ciro Donalek', 'Richard J. Doyle', 'Thomas Fuchs', 'Matthew Graham', 'Ashish Mahabal', 'Chris Mattmann', 'David R. Thompson']	The Caltech-JPL Summer School on Big Data Analytics	Sep 2nd, 2014	2 weeks long
-University of Washington	['Dr. Kjell Konis']	Mathematical Methods for Quantitative Finance	Jan 5th, 2015	8 weeks long
-Duke University	['Ronen Plesser']	Introduction to Astronomy	Dec 1st, 2014	13 weeks long
-Stanford University	['Jonathan Mayer']	Surveillance Law	Jan 20th, 2015	6 weeks long
-Ludwig-Maximilians-Universität München (LMU)	['Donald Bruce Dingwell']	Volcanic Eruptions: a material science.	Oct 21st, 2014	10 weeks long
-Wesleyan University	['Scott Higgins']	The Language of Hollywood: Storytelling, Sound, and Color	Feb 2nd, 2015	5 weeks long
-University of Washington	['Nathan Kutz']	Computational Methods for Data Analysis	Jan 5th, 2015	10 weeks long
+University of Minnesota	['Dr.  Christopher J.  Cramer']	Statistical Molecular Thermodynamics	Feb 2nd, 2015	11 weeks long
+École normale supérieure	['Werner Krauth']	Statistical Mechanics: Algorithms and Computations	Sep 2nd, 2014	10 weeks long
+Caltech	['Amy Braverman', 'Daniel J. Crichton', 'Scott Davidoff', 'S. George Djorgovski', 'Ciro Donalek', 'Richard J. Doyle', 'Thomas Fuchs', 'Matthew Graham', 'Ashish Mahabal', 'Chris Mattmann', 'David R. Thompson']	The Caltech-JPL Summer School on Big Data Analytics	Jan 5th, 2015	2 weeks long
+University of Washington	['Dr. Kjell Konis']	Mathematical Methods for Quantitative Finance	Dec 1st, 2014	8 weeks long
+Duke University	['Ronen Plesser']	Introduction to Astronomy	Jan 20th, 2015	13 weeks long
+Stanford University	['Jonathan Mayer']	Surveillance Law	Oct 21st, 2014	6 weeks long
+Ludwig-Maximilians-Universität München (LMU)	['Donald Bruce Dingwell']	Volcanic Eruptions: a material science.	Feb 2nd, 2015	10 weeks long
+Wesleyan University	['Scott Higgins']	The Language of Hollywood: Storytelling, Sound, and Color	Jan 5th, 2015	5 weeks long
+University of Washington	['Nathan Kutz']	Computational Methods for Data Analysis	There are no open sessions.	10 weeks long
 University of Wisconsin–Madison	['Randall Wright']	Markets with Frictions	There are no open sessions.	Indeterminate Duration
 Higher School of Economics	['Marek Dabrowski']	Economics of Transition and Emerging Markets	There are no open sessions.	Indeterminate Duration
 Columbia University	['Yannis Tsividis']	MOS Transistors	There are no open sessions.	Indeterminate Duration
@@ -712,22 +715,18 @@ Rice University	['James L. Smith']	The Art of Teaching History: A Global Convers
 State University of New York	['Dr.  Margaret Anne Schedel']	Introduction to Computational Arts	There are no open sessions.	Indeterminate Duration
 Match Teacher Residency	['Mr.  Orin  Gutlerner']	Surviving Your Rookie Year of Teaching: 3 Key Ideas & High Leverage Techniques	There are no open sessions.	Indeterminate Duration
 University of Houston System	['Dr.  Andria T Young']	Applying Principles of Behavior in the K-12 Classroom	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Rebecca Stein']	Principles of Microeconomics	There are no open sessions.	Indeterminate Duration
 Georgia Institute of Technology	['Dr. Jim Rehg']	Healthcare Technologies to Assess Human Behavior for Health Management	There are no open sessions.	Indeterminate Duration
 The University of Tokyo	['Kiichi Fujiwara']	Conditions of War and Peace	There are no open sessions.	Indeterminate Duration
 Georgia Institute of Technology	['Dr. Karen Head']	First-Year Composition 2.0	There are no open sessions.	Indeterminate Duration
 University of Colorado Boulder & University of Colorado System	['Professor Rob Knight', 'Dr.  Jessica L. Metcalf', 'Dr. Katherine R. Amato']	Gut Check: Exploring Your Microbiome	There are no open sessions.	Indeterminate Duration
 Korea Advanced Institute of Science and Technology	['YongKeun Park', 'Chulhee Choi', 'Hyeon-Jeong Suk']	Introduction to Light, Color, and Life	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Dr. Ed Dixon']	Auf Deutsch: Communicating in German Across Cultures 	There are no open sessions.	Indeterminate Duration
 Rutgers University	['Prof. Daniel M. Ogilvie', 'Prof. Leonard W. Hamilton']	Soul Beliefs: Causes and Consequences	There are no open sessions.	Indeterminate Duration
 Johns Hopkins University	['Paul D. Miller']	Engaging Students through Cooperative Learning	There are no open sessions.	Indeterminate Duration
 University of Washington	['David Wetherall', 'Arvind Krishnamurthy', 'John Zahorjan']	Computer Networks	There are no open sessions.	Indeterminate Duration
 University of Maryland, College Park	['Raymond J. St. Leger', "Tammatha O'Brien"]	Genes and the Human Condition (From Behavior to Biotechnology)	There are no open sessions.	Indeterminate Duration
 Emory University	['Dr. Jacob L. Wright']	The Bible's Prehistory, Purpose, and Political Future	There are no open sessions.	Indeterminate Duration
 Northwestern University	['Prof. Owen R. Youngman']	Understanding Media by Understanding Google	There are no open sessions.	Indeterminate Duration
-UNSW Australia (The University of New South Wales)	['Prof. Joe Wolfe', 'Dr Elizabeth  J.  Angstmann', 'Mr Sebastian Fricke']	Mechanics: Motion, Forces, Energy and Gravity, from Particles to Planets	There are no open sessions.	Indeterminate Duration
 New Teacher Center, Silicon Schools Fund & Clayton Christensen Institute	['Brian Greenberg', 'Rob Schwartz', 'Michael  Horn']	Blended Learning: Personalizing Education for Students	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Peter  Frumkin', 'Mrs.  Russell  Willis  Taylor']	Arts and Culture Strategy	There are no open sessions.	Indeterminate Duration
 Emory University	['Peter Lacovara']	The Art and Archaeology of Ancient Nubia	There are no open sessions.	Indeterminate Duration
 Emory University	['Steve Everett']	Introduction to Digital Sound Design	There are no open sessions.	Indeterminate Duration
 The University of Melbourne	['Professor Jon Barnett', 'Professor John Freebairn', 'Dr. Maurizio Toscano', 'Professor Rachel Webster', 'David Karoly']	Climate Change	There are no open sessions.	Indeterminate Duration
@@ -738,16 +737,13 @@ Princeton University	['Jeremy Adelman']	A History of the World since 1300	There 
 The University of Melbourne	['Professor Mark Hargreaves']	Exercise Physiology: Understanding the Athlete Within	There are no open sessions.	Indeterminate Duration
 École Polytechnique Fédérale de Lausanne	['Rick Johnston', 'Sara Marks']	Introduction to Household Water Treatment and Safe Storage	There are no open sessions.	Indeterminate Duration
 University of Minnesota	['Joseph A Konstan', 'Michael D Ekstrand']	Introduction to Recommender Systems	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Erick Hyde']	Applying to U.S. Universities	There are no open sessions.	Indeterminate Duration
 Georgia Institute of Technology	['Dr. Tom  Morley']	Games without Chance: Combinatorial Game Theory 	There are no open sessions.	Indeterminate Duration
 Johns Hopkins University	['Karen R. Charron, BSN, MPH, CCRC', 'Amber Bickford Cox, MPH, CCRC']	Vaccine Trials: Methods and Best Practices	There are no open sessions.	Indeterminate Duration
 The Ohio State University	['Robert Bailey']	Technology and Ethics	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Dr.  Sarah Kagan, PhD, RN', 'Anne Shoemaker']	Growing Old Around the Globe	There are no open sessions.	Indeterminate Duration
 New Teacher Center	['Lisa Mount']	Common Core in Action: Literacy in the Content Areas- Exploring Literacy Design Collaborative Template Tasks	There are no open sessions.	Indeterminate Duration
 Brown University	['Sue Alcock']	Archaeology's Dirty Little Secrets	There are no open sessions.	Indeterminate Duration
 University of California, Irvine	['Dr.  Sarah Eichhorn', 'Dr. Rachel Cohen Lehman', 'Melissa Joell Loble, M.A., MBA']	Intermediate Algebra	There are no open sessions.	Indeterminate Duration
 University of California, San Francisco	['Thomas Kearney, Pharm.D., DABAT']	Poisonings in the Home and Community: Assessment and Emergency Response	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Unknown Author']	"Pay Attention!!" ADHD Through the Lifespan	There are no open sessions.	Indeterminate Duration
 University of Michigan	['Kevin Korsyn, Ph.D.']	Introduction to Classical Music	There are no open sessions.	Indeterminate Duration
 The Hong Kong University of Science and Technology	['Naubahar Sharif']	Science, Technology, and Society in China I: Basic Concepts	There are no open sessions.	Indeterminate Duration
 University of Houston System	['Bernard R Robin', 'Dr. Sara G. McNeil']	Powerful Tools for Teaching and Learning: Digital Storytelling	There are no open sessions.	Indeterminate Duration
@@ -767,18 +763,13 @@ University of Copenhagen	['Anders Holm']	Measuring Causal Effects in the Social 
 Hebrew University of Jerusalem	['Jonathan Garb']	Modern European Mysticism and Psychological Thought	There are no open sessions.	Indeterminate Duration
 The University of Melbourne	['Professor Jeffrey Borland']	Generating the Wealth of Nations	There are no open sessions.	Indeterminate Duration
 CentraleSupélec	['Nikos Paragios', 'Pawan Kumar']	Discrete Inference and Learning in Artificial Vision	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Jonathan D. Moreno']	Neuroethics	There are no open sessions.	Indeterminate Duration
-Stanford University	['Dan Jurafsky', 'Christopher Manning']	Natural Language Processing	There are no open sessions.	Indeterminate Duration
 University of Michigan	['Lada Adamic']	Social Network Analysis	There are no open sessions.	Indeterminate Duration
 The University of Tokyo	['Hitoshi Murayama']	From the Big Bang to Dark Energy	There are no open sessions.	Indeterminate Duration
-Universiteit Leiden	['Stefaan Van den Bogaert']	The Law of the European Union: An Introduction	There are no open sessions.	Indeterminate Duration
 State University of New York	['Dr.  Margaret Anne Schedel']	Introduction to Computational Arts: Audio	There are no open sessions.	Indeterminate Duration
 University of California, Santa Cruz	['Ira Pohl']	C++ For C Programmers	There are no open sessions.	Indeterminate Duration
 IE Business School	['Gayle Allard']	Understanding economic policymaking	There are no open sessions.	Indeterminate Duration
 Higher School of Economics	['Leonid Polishchuk']	Public Economics	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Leslie A.  Billhymer', 'Dr.  Mark Alan Hughes']	Sustainability in Practice	There are no open sessions.	Indeterminate Duration
 Northwestern University	['Stacia Spencer']	Teaching the Violin and Viola: Creating a Healthy Foundation	There are no open sessions.	Indeterminate Duration
-University of Pennsylvania	['Dr. Emma Anne Meagher']	Fundamentals of Pharmacology	There are no open sessions.	Indeterminate Duration
 École Polytechnique Fédérale de Lausanne	['Christoph Lüthi']	Planning & Design of Sanitation Systems and Technologies 	There are no open sessions.	Indeterminate Duration
 University of Manchester	['Prof Dale Whittington', 'Dr Duncan Thomas']	Water Supply and Sanitation Policy in Developing Countries	There are no open sessions.	Indeterminate Duration
 California Institute of the Arts	['Ajay Kapur']	Introduction to Programming for Musicians and Digital Artists	There are no open sessions.	Indeterminate Duration
@@ -794,4 +785,3 @@ Northwestern University	['Todd D. Murphey']	Everything is the Same: Modeling Eng
 Georgia Institute of Technology	['Christopher M. Lee, Ph.D', 'Mr. Arthur R Murphy', 'Carolyn Patricia Phillips, M.Ed., ATP', 'Sheryl Ballenger', 'Norah Sinclair', 'Todd Runkle', 'Mr. Bill Curtis-Davidson']	Information and Communication Technology (ICT) Accessibility 	There are no open sessions.	Indeterminate Duration
 Northwestern University	['Eric Masanet']	How Green Is That Product? An Introduction to Life Cycle Environmental Assessment	There are no open sessions.	Indeterminate Duration
 HEC Paris	['Rodolphe Durand']	Time to Reorganize! Understand Organizations, Act, and Build a Meaningful World.	There are no open sessions.	Indeterminate Duration
-Johns Hopkins University	['Nancy Hodgson, PhD, RN', 'Laura Gitlin, PhD']	Living with Dementia: Impact on Individuals, Caregivers, Communities and Societies	There are no open sessions.	Indeterminate Duration
