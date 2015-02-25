@@ -5,7 +5,6 @@ class Categories_To_TSV(object):
         initalize with dictionary from scraper.py
         """
         self.category_dictionary = category_dictionary
-        print('hi')
         print(category_dictionary)
         
     
