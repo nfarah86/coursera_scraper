@@ -1,7 +1,7 @@
 import csv
 import models
 
-def process_item_to_db(self):
+def process_item_to_db(session):
     """ 
     Saves categories scraped into db
     """
@@ -31,7 +31,6 @@ def process_item_to_db(self):
 def main(session):
     process_item_to_db(session)
     
-
 if __name__ == '__main__':
     session = models.connect()
     main(session)
