@@ -1,4 +1,5 @@
 import csv
+import models
 
 def process_item_to_db(self):
     """ 
@@ -17,7 +18,6 @@ def process_item_to_db(self):
             category.titles = titles
             category.start_date = start_date
             category.duration = duration
-
             try:
               session.add(category)
               session.commit()
@@ -28,9 +28,10 @@ def process_item_to_db(self):
               session.close()
             #return category
 
-def main():
+def main(session):
     process_item_to_db()
-    connect = model.connect()
+    
 
 if __name__ == '__main__':
-    main(connect)
+    session = models.connect()
+    main(session)
