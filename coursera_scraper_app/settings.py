@@ -5,7 +5,7 @@ DATABASE = {
     'drivername': 'postgres',
     'host': 'localhost',
     'port': '5432',
-    'username': 'nfarah86',
-    'password': 'dogs123',
+    'username': 'nadine',
+    'password': '',
     'database': 'coursera_scraper_database'
 }
