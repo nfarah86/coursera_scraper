@@ -5,7 +5,6 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 from lxml import html
 import time
-import re
 import json
 from categories_to_tsv import Categories_To_TSV
 
@@ -97,7 +96,7 @@ class Parsing_Content(object):
         coursera_categories_dictionary['start-dates'] = coursera_date_list_filter
         coursera_categories_dictionary['durations'] = coursera_duration_list
         
-        print(json.dumps(coursera_categories_dictionary, sort_keys = True, indent = 2))
+        #print(json.dumps(coursera_categories_dictionary, sort_keys = True, indent = 2))
         return(coursera_categories_dictionary)
 
 
