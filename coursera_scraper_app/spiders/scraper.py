@@ -5,7 +5,6 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
 from lxml import html
 import time
-import json
 from categories_to_tsv import Categories_To_TSV
 
 class Crawler_Spider(object):
