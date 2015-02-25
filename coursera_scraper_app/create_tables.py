@@ -10,7 +10,10 @@ engine = create_engine(URL(**settings.DATABASE), echo=True)
 
 class Category(DeclarativeBase):
     """
-    Sqlalchemy categories model
+    The purpose of this file is to create a table in the db, without manually typing
+    them in
+
+    Just run: python create_table.py to initalize the db with the table and that's it!
     """
     __tablename__ = "categories"
 
