@@ -6,27 +6,12 @@ import os
 import settings
 
 DeclarativeBase = declarative_base()
-
-# def db_connect():
-#     """ 
-#     Database connects using db settings: import settings
-#     sqlalchemy engine instance is returned
-#     """ 
-#     return create_engine(URL(**settings.DATABASE))
-
-# def create_categories_table(engine):
-
-#     DeclarativeBase.metadata.create_all(engine)
-
 ENGINE = create_engine(URL(**settings.DATABASE), echo=True)
 session = scoped_session(sessionmaker(bind=ENGINE,
                                       autocommit = False,
                                       autoflush = False))
-
-
 Base = declarative_base() #import Base
 Base.query = session.query_property
-
 
 def connect():
     global ENGINE
@@ -52,9 +37,6 @@ class Category(DeclarativeBase):
     author = Column('author', String, nullable=False)
     start_date = Column('start_date', String, nullable=False)
     duration = Column('duration', String, nullable=False)
-
-
-################ creating instance of session, initalizing engine ################## 
 
 def main():
     pass

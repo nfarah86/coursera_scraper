@@ -18,7 +18,7 @@ class Crawler_Spider(object):
         This method creates a ClientObject and fetches
         all the html from the website 
         """
-        print("We're fetching loading the browser!")
+        print("We're loading the browser!")
         driver = webdriver.Firefox()
         driver.get(self.url)
         time.sleep(10)
@@ -45,12 +45,11 @@ class Parsing_Content(object):
         This method gets the html scraped and turns it to
         soup
         """
-        print("we're are printing the soup")
+        print("We're are printing the soup")
         soup = BeautifulSoup(self.content)
         #extracted some extraneous info before parsing through categories
         for extra_script in soup(["style", "script", "head", "title"]):
             extra_script.extract()    
-        #print(soup.prettify())
         return soup
 
 
@@ -58,8 +57,6 @@ class Parsing_Content(object):
         """
         This method uses the soup to scrape through coursera categories 
         """
-        count = 0
-        print("Fetching categories")
         coursera_category_soup = html_soup.findAll(class_='c-courseList-entry-full')
 
         coursera_categories_dictionary = {}
@@ -67,12 +64,9 @@ class Parsing_Content(object):
         coursera_author_list =[]
         coursera_title_list = []
         coursera_date_list = []
-        coursera_duration_list=[]
+        coursera_duration_list= []
 
-        for coursera_category in coursera_category_soup: 
-            
-            count += 1
-            print(count)  
+        for coursera_category in coursera_category_soup:   
             #parses through organizations
             coursera_institutions = coursera_category.find(class_='c-courseList-entry-university').text          
             coursera_institution_list.append(str(coursera_institutions))
@@ -129,15 +123,12 @@ def main():
     #creates clientObject and fetches html
     crawl_object = Crawler_Spider("https://www.coursera.org/courses?languages=en")
     content_object = crawl_object.fetch_content()
-    
     #turns html to soup
     parsing_object = Parsing_Content(content_object)
     soup_object = parsing_object.parse_html()
-    
     #grabs categories passing soup object
     category_object = Parsing_Content(content_object)
     category_dictionary = category_object.parse_coursera_categories(soup_object)
-
     #take categories and puts them into .csv doc
     category_object = Categories_To_TSV(category_dictionary)
     category_object.put_categories_into_file()
