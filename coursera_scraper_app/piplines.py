@@ -12,7 +12,7 @@ def process_item_to_db(self):
             organizations, authors, titles, start_date, duration = line
             #print (line)
 
-            category = model.Category()
+            category = models.Category()
             category.organizations = organizations
             category.authors = authors
             category.titles = titles
@@ -29,7 +29,7 @@ def process_item_to_db(self):
             #return category
 
 def main(session):
-    process_item_to_db()
+    process_item_to_db(session)
     
 
 if __name__ == '__main__':
