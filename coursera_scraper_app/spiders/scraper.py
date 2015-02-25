@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 from lxml import html
 import time
 import re
-import sys
-import csv
+import json
+from categories_to_tsv import Categories_To_TSV
 
 class Crawler_Spider(object):
     
@@ -97,34 +97,9 @@ class Parsing_Content(object):
         coursera_categories_dictionary['start-dates'] = coursera_date_list_filter
         coursera_categories_dictionary['durations'] = coursera_duration_list
         
-        print(coursera_categories_dictionary)
+        print(json.dumps(coursera_categories_dictionary, sort_keys = True, indent = 2))
         return(coursera_categories_dictionary)
 
-class Categories_To_CSV(object):
-    
-    def __init__(self, category_dictionary):
-        """ 
-        initalize with dictionary from scraper.py
-        """
-        self.category_dictionary = category_dictionary
-        
-    
-    def put_categories_into_file(self):
-        """ 
-        logic that puts the contents of dictionary
-        to rows and columns
-        """
-        result = zip(self.category_dictionary['organizations'], 
-            self.category_dictionary['authors'], 
-            self.category_dictionary['titles'], 
-            self.category_dictionary['start-dates'], 
-            self.category_dictionary['durations']
-        )
-        format_to_string_tabs = "{!s}\t{!s}\t{!s}\t{!s}\t{!s}"
-        with open('data.tsv', 'w') as ofile: 
-            for row in result:
-                ofile.write((format_to_string_tabs .format(*row)))
-                ofile.write('\n')
 
 def parse_multiple_instructors(coursera_instructor_list):
     """
@@ -165,8 +140,8 @@ def main():
     category_dictionary = category_object.parse_coursera_categories(soup_object)
 
     #take categories and puts them into .csv doc
-    category_object = Categories_To_CSV(category_dictionary)
-    category_file_object = category_object.put_categories_into_file()
+    category_object = Categories_To_TSV(category_dictionary)
+    category_object.put_categories_into_file()
 
 if __name__ == '__main__':
     main()
