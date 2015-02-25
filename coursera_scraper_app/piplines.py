@@ -10,7 +10,6 @@ def process_item_to_db(session):
         for line in category_reader:
             line[1] = line[1].replace('[', "").replace(']',"")
             organizations, authors, titles, start_date, duration = line
-            print (line)
 
             category = models.Category()
             category.organization = organizations
