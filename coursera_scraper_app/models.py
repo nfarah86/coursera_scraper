@@ -5,13 +5,15 @@ from sqlalchemy import create_engine, Column, Integer, String
 import os
 import settings
 
-DeclarativeBase = declarative_base()
-ENGINE = create_engine(URL(**settings.DATABASE), echo=True)
+ENGINE= create_engine(URL(**settings.DATABASE), echo=True)
 session = scoped_session(sessionmaker(bind=ENGINE,
                                       autocommit = False,
                                       autoflush = False))
 Base = declarative_base() #import Base
 Base.query = session.query_property
+
+def create_tables():
+    Base.metadata.create_all(bind=Engine)
 
 def connect():
     global ENGINE
@@ -22,10 +24,7 @@ def connect():
 
     return Session()
 
-def create_categories_db():
-    Base.metadata.create_all(bind=Engine)
-
-class Category(DeclarativeBase):
+class Category(Base):
     """
     Sqlalchemy categories model
     """
@@ -39,8 +38,8 @@ class Category(DeclarativeBase):
     duration = Column('duration', String, nullable=False)
 
 def main():
+    #create_tables()   #uncomment this to initialize tables in db
     pass
-
 
 if __name__ == "__main__":
     main()

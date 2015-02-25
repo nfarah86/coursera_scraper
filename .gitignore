@@ -3,3 +3,4 @@ extra_code.py
 notes.txt
 trial_code.py
 extraneous/
+__pycache__

@@ -5,7 +5,7 @@ def process_item_to_db(session):
     """ 
     Saves categories scraped into db
     """
-    with open("./spiders/data.tsv", 'r') as category_reader:
+    with open("./data/data.tsv", 'r') as category_reader:
         category_reader = csv.reader(category_reader, delimiter='\t')
         for line in category_reader:
             line[1] = line[1].replace('[', "").replace(']',"")
