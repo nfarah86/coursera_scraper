@@ -1,9 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from bs4 import BeautifulSoup
-from lxml import html
 import time
 from categories_to_tsv import Categories_To_TSV
 
@@ -54,7 +51,8 @@ class Parsing_Content(object):
 
     def parse_coursera_categories(self, html_soup):
         """
-        This method uses the soup to scrape through coursera categories 
+        This method uses the soup to scrape through coursera categories, and 
+        finally puts the categories into a dictionary
         """
         coursera_category_soup = html_soup.findAll(class_='c-courseList-entry-full')
 
@@ -89,7 +87,6 @@ class Parsing_Content(object):
         coursera_categories_dictionary['start-dates'] = coursera_date_list_filter
         coursera_categories_dictionary['durations'] = coursera_duration_list
         
-        #print(json.dumps(coursera_categories_dictionary, sort_keys = True, indent = 2))
         return(coursera_categories_dictionary)
 
 

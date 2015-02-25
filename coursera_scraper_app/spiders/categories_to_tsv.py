@@ -11,8 +11,7 @@ class Categories_To_TSV(object):
     
     def put_categories_into_file(self):
         """ 
-        logic that puts the contents of dictionary
-        to rows and columns
+        Writes to data.tsv
         """
         result = zip(self.category_dictionary['organizations'], 
             self.category_dictionary['authors'], 
